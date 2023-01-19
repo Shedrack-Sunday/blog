@@ -120,11 +120,11 @@ To run tests, run the following command:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
-👤 **Danys Linares**
+👤 **Shedrack Sunday**
 
-- GitHub: [@github](https://github.com/Shedrack-Sunday)
-- Twitter: [@twitter](https://twitter.com/Shedrack-Sunday)
-- LinkedIn: [LinkedIn](www.linkedin.com/Shedrack-Sunday)
+-  [Github](https://github.com/Shedrack-Sunday)
+-  [Twitter](https://twitter.com/Shedrack-Sunday)
+-  [Linkedin](www.linkedin.com/Shedrack-Sunday)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
