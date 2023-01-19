@@ -1,4 +1,4 @@
-# README
+
 
 <a name="readme-top"></a>
 
@@ -31,9 +31,9 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Tangled blog app <a name="about-project"></a>
+# 📖 Blog app <a name="about-project"></a>
 
-**Tangled** Is a fully functional settiing in Ruby and Rails that shows the list of posts and to interact with them by adding comments and liking posts.
+This is a blog app built using Ruby and rails and Postgresql as database. It Is fully functional  and  shows the list of posts and how to interact with them by adding comments and liking.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -82,11 +82,10 @@
 
 In order to run this project you need:
 
-- Internet connection.
-- Basic knowledge of Git/Terminal.
-- Visual Studio Code Installed.
-- Ruby installed.
-- Ruby on Rails installed.
+- [ ] Basic knowledge of Git/Terminal.
+- [ ] Visual Studio Code Installed.
+- [ ] Ruby installed.
+- [ ] Ruby on Rails installed.
 
 ### Setup
 
@@ -132,6 +131,7 @@ To run tests, run the following command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Register new users**
+- [ ] **Select users by region**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,7 +148,7 @@ Feel free to check the [issues page](https://github.com/d4nQw3rty/the-art-of-dev
 > Hi, I would appreciate if you give this project a star(⭐️) this will encourage me to improve it and build the social network of the future.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgments <a name="acknowledgments"></a>
 
 > Microverse inc
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
