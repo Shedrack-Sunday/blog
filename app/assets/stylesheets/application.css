@@ -12,6 +12,11 @@
   margin: 10px;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 .user-main a {
   text-decoration: none;
   color: black;
@@ -74,11 +79,6 @@
 .user-main .user-comments p {
   display: flex;
   flex-direction: row;
-}
-
-a {
-  text-decoration: none;
-  color: #000;
 }
 
 .btn {
