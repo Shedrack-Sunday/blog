@@ -1,22 +1,42 @@
-<%= render @user %>
-
-<ul class="user-main">
-<li class="user-bio">
-    <h3>Bio : </h3>
-    <p><%= @user.bio%></p>
-</li>
-
-
-   <% @user.recent_posts.each_with_index do |post, i|%>
-        <li class="post-all">
-        <h4>Post #<%=i+1%></h4>
-        <p><%= post.text%></p>
-        <p class="show-li">Coments : <%= post.comments_counter.to_i%> Likes : <%= post.likes_counter.to_i %> </p>
-        </li>
-    <%end%>
-</ul>
-
-
-<button class='btn'>
-<%= link_to "See all posts", user_posts_path(@user) %>
-</button>
+<div class='post_container'>
+  <div class='post_header'>
+    <div class='post_img '>
+      <img class='header_photo' src='<%= @user.photo %>' alt="<%= @user.name %>'s profile picture"/>
+    </div>
+    <div class='posts_info'>
+      <h2><%= @user.name %></h2>
+      <p class='header_counter'>Number of Posts: <%= @user.posts_counter %></p>
+    </div>
+  </div>
+  <div class='bio_container'>
+    <div>
+      <h3>Biography</h3>
+    </div>
+    <div>
+      <p><%= @user.bio %></p>
+    </div>
+  </div>
+  <ul class='post_list'>
+    <% @user.latest_posts.each do | post | %>
+      <li class = 'list_element'>
+        <div>
+          <h3><%= link_to post.title, user_post_path(@user, post) %></h3>
+          <p><%= post.text %></p>
+        </div> 
+        <div class='counter_section'>       
+          <div>          
+            <p>Comments: <%= post.comments_counter %></p>
+          </div>
+          <div>                  
+            <p>Likes: <%= post.likes_counter %></p>
+          </div>      
+        </div>
+     </li>
+    <% end %>
+  </ul>
+  <div class='action_section  '>
+    <button type='button' class='button_style'>
+      <%= link_to 'See all posts', user_posts_path(@user) %>
+    </button>
+  </div>
+</div>

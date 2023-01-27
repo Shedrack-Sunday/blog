@@ -110,3 +110,75 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+.post_container {
+  margin: 5% 10%;
+}
+
+.post_header {
+  display: flex;
+  gap: 15px;
+}
+
+.post_img {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.posts_info {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 10;
+  justify-content: space-between;
+  border: solid;
+  padding: 15px 30px;
+}
+
+.bio_container {
+  border: solid;
+  margin-top: 30px;
+  padding: 0 2%;
+}
+
+.post_list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.list_element {
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  margin-top: 30px;
+  padding: 0 2%;
+}
+
+.counter_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 5%;
+}
+
+.action_section {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0 10px 0;
+  justify-content: center;
+}
+
+.button_style {
+  border: solid;
+  padding: 5px 5px;
+  background: #fff;
+  box-shadow: 4px 4px 1px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
