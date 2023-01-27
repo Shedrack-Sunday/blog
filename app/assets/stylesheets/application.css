@@ -76,6 +76,11 @@
   flex-direction: row;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 .btn {
   display: flex;
   width: 150px;
@@ -176,9 +181,4 @@
   padding: 5px 5px;
   background: #fff;
   box-shadow: 4px 4px 1px;
-}
-
-a {
-  text-decoration: none;
-  color: #000;
 }
