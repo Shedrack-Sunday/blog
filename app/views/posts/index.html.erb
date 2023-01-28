@@ -1,3 +1,13 @@
+<div class='btn-div'>
+    <button>
+      <%=link_to 'Back', root_path %>
+    </button>
+
+    <button>
+      <%=link_to 'Create new Post', new_user_post_path(user_id: @user.id) %>
+    </button>
+</div>
+
 <%= render @user %>
 
 <ul class="user-main">
@@ -8,7 +18,6 @@
             <h4>Post #<%=i+1%></h4>
             <p><%= post.text%></p>
             <p class="show-li">Coments : <%= post.comments_counter.to_i%>  Likes : <%= post.likes_counter.to_i %> </p>
-
         <% end %>
         </li>
         <div class="<%= comments?(post)%> user-comments">
