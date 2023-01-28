@@ -183,7 +183,7 @@ a {
   box-shadow: 4px 4px 1px;
 }
 
- .btn-div {
+.btn-div {
   display: flex;
   flex-direction: row;
   justify-content: center;
