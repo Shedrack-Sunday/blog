@@ -126,6 +126,12 @@ To run tests, run the following command:
 -  [Twitter](https://twitter.com/Shedrack-Sunday)
 -  [Linkedin](www.linkedin.com/Shedrack-Sunday)
 
+👤 **Cindy Dorantes**
+
+- GitHub: [@CindyDorantes](https://github.com/CindyDorantes)
+- Twitter: [@CindyDorantes10](https://twitter.com/CindyDorantes10)
+- LinkedIn: [Cindy Melisa Dorantes Sánchez](https://www.linkedin.com/in/cindydorantessanchez/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
